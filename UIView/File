@@ -1,0 +1,8 @@
+1、子视图超过父视图的部分，不响应事件;
+*ViewController1;
+
+2、UIView的简单仿射变换：缩放、旋转、移动；
+*TransformViewController；
+
+3、UIView的自动布局属性 autoresizingMask；
+*AutoresizingMaskVC；

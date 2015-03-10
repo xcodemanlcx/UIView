@@ -14,6 +14,10 @@
 		1834D4641A02580C00789112 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1834D4631A02580C00789112 /* Images.xcassets */; };
 		1834D4671A02580C00789112 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1834D4651A02580C00789112 /* LaunchScreen.xib */; };
 		1834D4731A02580C00789112 /* UIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834D4721A02580C00789112 /* UIViewTests.m */; };
+		1834D47E1A02583D00789112 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834D47D1A02583D00789112 /* ViewController1.m */; };
+		185B573A1AAEDC3500CBB047 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 185B57391AAEDC3500CBB047 /* File */; };
+		189D8DB31A2C85A500C822FC /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189D8DB21A2C85A500C822FC /* TransformViewController.m */; };
+		18B29C5B1AA4992D006E0D40 /* AutoresizingMaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B29C5A1AA4992D006E0D40 /* AutoresizingMaskVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		1834D46C1A02580C00789112 /* UIViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1834D4711A02580C00789112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1834D4721A02580C00789112 /* UIViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewTests.m; sourceTree = "<group>"; };
+		1834D47C1A02583D00789112 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		1834D47D1A02583D00789112 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		185B57391AAEDC3500CBB047 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		189D8DB11A2C85A500C822FC /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		189D8DB21A2C85A500C822FC /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		18B29C591AA4992D006E0D40 /* AutoresizingMaskVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoresizingMaskVC.h; sourceTree = "<group>"; };
+		18B29C5A1AA4992D006E0D40 /* AutoresizingMaskVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoresizingMaskVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,13 @@
 				1834D45B1A02580C00789112 /* AppDelegate.m */,
 				1834D45D1A02580C00789112 /* ViewController.h */,
 				1834D45E1A02580C00789112 /* ViewController.m */,
+				1834D47C1A02583D00789112 /* ViewController1.h */,
+				1834D47D1A02583D00789112 /* ViewController1.m */,
+				189D8DB11A2C85A500C822FC /* TransformViewController.h */,
+				189D8DB21A2C85A500C822FC /* TransformViewController.m */,
+				18B29C591AA4992D006E0D40 /* AutoresizingMaskVC.h */,
+				18B29C5A1AA4992D006E0D40 /* AutoresizingMaskVC.m */,
+				185B57391AAEDC3500CBB047 /* File */,
 				1834D4601A02580C00789112 /* Main.storyboard */,
 				1834D4631A02580C00789112 /* Images.xcassets */,
 				1834D4651A02580C00789112 /* LaunchScreen.xib */,
@@ -199,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185B573A1AAEDC3500CBB047 /* File in Resources */,
 				1834D4621A02580C00789112 /* Main.storyboard in Resources */,
 				1834D4671A02580C00789112 /* LaunchScreen.xib in Resources */,
 				1834D4641A02580C00789112 /* Images.xcassets in Resources */,
@@ -219,9 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189D8DB31A2C85A500C822FC /* TransformViewController.m in Sources */,
+				1834D47E1A02583D00789112 /* ViewController1.m in Sources */,
 				1834D45F1A02580C00789112 /* ViewController.m in Sources */,
 				1834D45C1A02580C00789112 /* AppDelegate.m in Sources */,
 				1834D4591A02580C00789112 /* main.m in Sources */,
+				18B29C5B1AA4992D006E0D40 /* AutoresizingMaskVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +434,7 @@
 				1834D4781A02580C00789112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1834D4791A02580C00789112 /* Build configuration list for PBXNativeTarget "UIViewTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +443,7 @@
 				1834D47B1A02580C00789112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

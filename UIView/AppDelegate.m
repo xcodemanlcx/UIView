@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController1.h"
+#import "TransformViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[TransformViewController alloc] init];
+    
     return YES;
 }
 
