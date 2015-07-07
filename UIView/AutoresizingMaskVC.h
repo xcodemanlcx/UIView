@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewViewController : UIViewController
+@interface AutoresizingMaskVC : UIViewController
 
 @end

@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController1.h"
 #import "TransformViewController.h"
-
+#import "AutoresizingMaskVC.h"
 @interface AppDelegate ()
 
 @end
@@ -20,7 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window.rootViewController = [[TransformViewController alloc] init];
+    self.window.rootViewController = [[AutoresizingMaskVC alloc] init];
     
     return YES;
 }
